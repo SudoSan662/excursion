@@ -1,0 +1,21 @@
+/* Zentriert alles und setzt den Hintergrund auf Schwarz */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Sorgt dafür, dass Videos und Bilder nicht breiter als das Fenster sind */
+video, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Zentriert die Elemente mit Abstand */
+}
+
+/* Styling für den "Download" Link */
+.link-cta {
+    color: aquamarine;
+    font-size: 18px;
+}
